@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -8,24 +9,50 @@
 
 <style>
 
-html {
-    background:url(test3.jpg) ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+/*    html {
+    background-image:url(test5.jpg);
+    background-size: 100% 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
+    */
+    
+    
+    img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+    
+    
 
 </style>
 </head>
 <body>
+    
+    <img src="test3.jpg" class="bg" />
 
 <table  >
 <tr >
 
-<td><a href="index.html">HOME</a></td>
+<td><a href="home.html">HOME</a></td>
 <td><a href="aboutme.html">About Me</a></td>
 <td><a href="hobbies.html">Hobbies</a></td>
 <td><a href="contact.html">Contact Me</a></td>
