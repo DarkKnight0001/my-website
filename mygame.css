@@ -1,0 +1,118 @@
+.wrapper{
+    background-color: whitesmoke;
+   height: 500px;
+    width: 900px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.buttons{
+    border: 1px dashed maroon;
+    height: auto;
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+#newgame,#roll,#hold{
+   height: 40px;
+    margin-left: 140px;
+    font-size: 20px
+}
+
+
+.player-1{
+    float: left;
+    height: auto;
+    width: 50%;
+    
+ //    border: 1px solid black;
+ //   padding-left: 105px; 
+    
+    padding-top: 80px;
+}
+
+.player-2{
+    float: right;
+    height: auto;
+    width: 450px;
+    
+//     border: 1px solid black;
+//    padding-right: 105px;
+    
+    padding-top: 80px;
+}
+
+
+
+#name-1{
+    font-size: 40px;
+//      border: 1px solid black;
+    color: black;
+    text-align: center;
+}
+#name-2{
+    font-size: 40px;
+//     border: 1px solid black;
+    text-align: center;
+    color: black;
+}
+#score-1{
+    font-size: 50px;
+    color: crimson;
+     margin-top: 30px;
+//      border: 1px solid black;
+    text-align: center;
+}
+#score-2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+//      border: 1px solid black;
+    color: crimson;
+}
+
+#current-11{
+    width: 90px;
+    height: 60px;
+    background-color: darkred;
+    text-align: center;
+    color: black;
+     padding-top: 5px;
+    margin-top: 80px;
+    margin-left: 180px;
+      border: 1px solid black;
+  
+}
+
+#current-21{
+    width: 88px;
+    height: 60px;
+    background-color: darkred;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+     margin-top: 80px;
+    margin-left: 180px;
+      border: 1px solid black;
+}
+
+#current-1{
+    font-size: 25px;
+    padding-top: 3px;
+    color: white;
+}
+#current-2{
+    font-size: 25px;
+    padding-top: 3px;
+    color: white;
+}
+
+.active{
+    background-color: skyblue;
+   height:auto;
+}
+.dicephoto{
+    height: 94px;
+    padding-left: 415px; 
+}
